@@ -19,6 +19,7 @@ depends 'ntp', '~> 2.0.0'
 depends 'sudo', '~> 4.0.0'
 depends 'magic_shell', '~> 1.0.0'
 depends 'conda'
+depends 'hops'
 
 recipe "kagent::install", "Installs the Karamel agent and python dependencies"
 recipe "kagent::default", "Installs and configures the Karamel agent"
