@@ -1,4 +1,6 @@
 include_attribute "conda"
+include_attribute "hops"
+
 
 # Default values for configuration parameters
 default["kagent"]["version"]                       = node["install"]["version"]
