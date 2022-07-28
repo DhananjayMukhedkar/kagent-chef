@@ -256,6 +256,10 @@ if exists_local("hopsworks","default")
   deps = "glassfish-domain1.service"
 end
 
+if node['hops']['docker']['enabled'].eql?("true")
+  include_recipe "hops::docker"
+end
+
 template systemd_script do
   source "#{service_name}.service.erb"
   owner "root"
