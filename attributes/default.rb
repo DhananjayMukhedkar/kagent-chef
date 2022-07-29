@@ -1,5 +1,5 @@
 include_attribute "conda"
-#include_attribute "hops"
+include_attribute "hops"
 
 
 # Default values for configuration parameters
